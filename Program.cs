@@ -54,6 +54,9 @@ namespace szamosszeg
 
         static void Main(string[] args)
         {
+            input();
+            Console.WriteLine("A pozitív számok összege: " + sumpositives());
+            Console.WriteLine("A negatív számok összege: " + sumnegatives());
         }
     }
 }
