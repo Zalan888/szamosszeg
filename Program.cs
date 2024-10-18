@@ -32,6 +32,26 @@ namespace szamosszeg
             }
         }
 
+        static int sumpositives()
+        {
+            int sumpos = 0;
+            foreach (int i in pos)
+            {
+                sumpos += i;
+            }
+            return sumpos;
+        }
+
+        static int sumnegatives()
+        {
+            int sumneg = 0;
+            foreach(int i in neg)
+            {
+                sumneg += i;
+            }
+            return sumneg;
+        }
+
         static void Main(string[] args)
         {
         }
